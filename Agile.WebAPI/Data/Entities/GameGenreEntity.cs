@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using Agile.WebAPI.Data.Entities;
 
-namespace Data.Entities
+namespace Agile.WebAPI.Data.Entities
 {
     public class GameGenreEntity
     {

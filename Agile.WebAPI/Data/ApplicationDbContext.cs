@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Agile.WebAPI.Data.Entities;
 
-namespace Agile.WebAPI
+namespace Agile.WebAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -16,5 +16,6 @@ namespace Agile.WebAPI
 
         public DbSet<GameGenreEntity> Genre { get; set; }
     
+        public DbSet<GameEntity> Games { get; set; }
     }
 }

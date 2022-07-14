@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Agile.WebAPI.Data;
 using Agile.WebAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using Agile.WebAPI.Data.Entities;
 
 namespace Agile.WebAPI.Controllers
 {
@@ -27,7 +28,7 @@ namespace Agile.WebAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-            _context.Games.Add(new Game()
+            _context.Games.Add(new GameEntity()
             {
                 Title = game.Title,
                 Description = game.Description,

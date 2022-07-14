@@ -13,6 +13,9 @@ namespace Agile.WebAPI.Data
         {
 
         }
+
+        public DbSet<GameGenreEntity> Genre { get; set; }
+    
         public DbSet<GameEntity> Games { get; set; }
     }
 }

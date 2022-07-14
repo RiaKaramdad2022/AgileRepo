@@ -12,6 +12,6 @@ namespace Agile.WebAPI
         {
 
         }
-    
+        public DbSet<GameEntity> Games { get; set; }
     }
 }

@@ -7,12 +7,12 @@ namespace Agile.WebAPI.Models
 {
     public class GameDetail
     {
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string GameSystem { get; set; }
-        public string Genre { get; set; }
-        public string MaturityRating { get; set; }
-        public string Developer { get; set; }
+        public string Title { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public string GameSystem { get; set; } = null!;
+        public string Genre { get; set; } = null!;
+        public string MaturityRating { get; set; } = null!;
+        public string Developer { get; set; } = null!;
         public DateTime ReleaseDate { get; set; }
         
     }
